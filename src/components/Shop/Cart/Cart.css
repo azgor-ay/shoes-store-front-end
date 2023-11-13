@@ -1,0 +1,36 @@
+.cart-added-product-container p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    
+    margin: 5px;
+}
+
+.cart-added-product-container h6 {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.0015em;
+    
+}
+
+.clear-cart-btn {
+    background: #FF3030;
+    border-radius: 4px;
+    width: 100%;
+    color: white;
+    margin: 10px 0px;
+    padding: 10px;
+    border: none;
+}
+
+.preview-order-btn {
+    background: #FF9900;
+    border-radius: 4px;
+    width: 100%;
+    color: white;
+    margin: 10px 0px;
+    padding: 10px;
+    border: none;
+}

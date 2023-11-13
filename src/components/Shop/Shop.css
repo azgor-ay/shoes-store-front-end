@@ -1,0 +1,31 @@
+.shop-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.products-container{
+    position: static;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 50px;
+}
+
+.cart-items {
+    background: #3333ff;
+    color: white;
+    height: 100vh;
+    padding: 25px;
+    position: sticky;
+    border-radius: 8px;
+    /* display: none; */
+    top: 0;
+}
+
+.title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+
+}
