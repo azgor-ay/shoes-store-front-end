@@ -5,7 +5,6 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Shop from "./components/Shop/Shop";
 import Orders from "./components/Orders/Orders";
-import Inventory from "./components/Inventory/Inventory";
 
 import cartProductsLoader from "./components/Loaders/cartProductsLoader";
 
@@ -22,11 +21,10 @@ const router = createBrowserRouter([
 
       {
         path: "/checkout",
-        element: (
-        
-            <CheckOut></CheckOut>
-         
-        ),
+        element:
+          <CheckOut></CheckOut>,
+        loader: cartProductsLoader,
+
       },
 
       {
@@ -35,14 +33,7 @@ const router = createBrowserRouter([
         loader: cartProductsLoader,
       },
 
-      {
-        path: "/inventory",
-        element: (
-        
-            <Inventory></Inventory>
-        
-        ),
-      }
+
     ],
   },
 ]);

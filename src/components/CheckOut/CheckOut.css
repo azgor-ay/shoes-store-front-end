@@ -1,0 +1,55 @@
+.checkout-page {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .checkout_container{
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+  }
+.page_title{
+    text-align: center;
+}
+
+.place_order_btn{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.place_order_btn :hover{
+    background-color: rgba(0, 0, 255, 0.52);
+}
+
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+  }
+  
+  .card img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .card-title {
+    font-size: 1.2em;
+    margin: 5px 0;
+  }
+  
+  .card-text {
+    margin: 5px 0;
+  }
